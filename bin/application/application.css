@@ -1,0 +1,15 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.tableButton{
+	 -fx-background-radius: 5em;
+     -fx-min-width: 65px;
+     -fx-min-height: 65px;
+     -fx-max-width: 65px;
+     -fx-max-height: 65px;
+}
+
+.workingPane {
+    -fx-border-color: #aaaaaa;
+    -fx-border-width: 2px;
+    -fx-spacing: 8;
+    -fx-background-color:white;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StaffController">
+   <children>
+      <SplitPane dividerPositions="0.6237458193979933" layoutX="320.0" layoutY="100.0" orientation="VERTICAL" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="276.0" layoutY="51.0" prefHeight="369.0" prefWidth="798.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <TableView fx:id="staffTable" layoutX="126.0" layoutY="84.0" prefHeight="367.0" prefWidth="796.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label layoutX="97.0" layoutY="111.0" text="First Name" />
+                  <Label layoutX="268.0" layoutY="111.0" text="Last Name" />
+                  <Label layoutX="440.0" layoutY="111.0" text="Username" />
+                  <TextField fx:id="staffFirst" layoutX="97.0" layoutY="151.0" prefHeight="31.0" prefWidth="150.0" />
+                  <TextField fx:id="staffUsername" layoutX="440.0" layoutY="151.0" prefHeight="31.0" prefWidth="150.0" />
+                  <ButtonBar layoutX="73.0" layoutY="62.0" prefHeight="40.0" prefWidth="570.0">
+                    <buttons>
+                        <Button mnemonicParsing="false" onAction="#add" prefHeight="31.0" prefWidth="339.0" text="Add to list" />
+                        <Button mnemonicParsing="false" onAction="#replace" text="Replace selected staff" />
+                        <Button mnemonicParsing="false" onAction="#remove" prefHeight="31.0" text="Remove selected staff" />
+                    </buttons>
+                  </ButtonBar>
+                  <Button layoutX="14.0" layoutY="19.0" mnemonicParsing="false" onAction="#backToAdmi" text="Back" />
+                  <Label fx:id="status" layoutX="97.0" layoutY="175.0" />
+                  <TextField fx:id="staffLast" layoutX="268.0" layoutY="151.0" prefHeight="31.0" prefWidth="150.0" />
+                  <TextField fx:id="staffPassword" layoutX="611.0" layoutY="151.0" prefHeight="31.0" prefWidth="150.0" />
+                  <Label layoutX="611.0" layoutY="111.0" text="Password" />
+                  <Button layoutX="97.0" layoutY="19.0" mnemonicParsing="false" onAction="#activityLog" text="Staff Activity Log" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
