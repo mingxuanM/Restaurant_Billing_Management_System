@@ -7,7 +7,7 @@ Staff test account:username: ``1``, password: ``1``;
 
 ---
 
-1. This application runs a restaurant billing management system providing functions including:
+1. This application runs a restaurant billing management system providing functions including:  
  	1). Place new order for different tables.  
   	2). Modify the latest order of each table.  
   	3). View history order list and search the list based on table number, dates and times intervals and ordered food.  
