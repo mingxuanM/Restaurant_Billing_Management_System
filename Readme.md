@@ -4,12 +4,14 @@ Youtube video address:https://youtu.be/w5pjWKsDLh0
 
 Manager test account:username:1234567, password:1234567;
 Staff test account:username:1, password:1;
+
 ---
+
 1. This application runs a restaurant billing management system providing functions including:
- 	1). Place new order for different tables.
-  	2). Modify the latest order of each table.
-  	3). View history order list and search the list based on table number, dates and times intervals and ordered food.
-  	4). There is a manager account, which gives you several additional functions: 
+ 	1). Place new order for different tables.  
+  	2). Modify the latest order of each table.  
+  	3). View history order list and search the list based on table number, dates and times intervals and ordered food.  
+  	4). There is a manager account, which gives you several additional functions:  
   		a. Edit menu.
  		b. Edit staff list.
  		c. View staff activity logs.
