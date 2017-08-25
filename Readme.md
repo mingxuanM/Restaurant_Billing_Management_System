@@ -1,10 +1,10 @@
-# Restaurant_Billing_Management_System - COMPGC01 Coursework
+## Restaurant_Billing_Management_System - COMPGC01 Coursework
 
 Youtube video address:https://youtu.be/w5pjWKsDLh0
 
 Manager test account:username:1234567, password:1234567;
 Staff test account:username:1, password:1;
-
+---
 1. This application runs a restaurant billing management system providing functions including:
  	1). Place new order for different tables.
   	2). Modify the latest order of each table.
