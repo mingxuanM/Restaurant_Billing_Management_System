@@ -1,9 +1,9 @@
 ## Restaurant_Billing_Management_System - COMPGC01 Coursework
 
-Youtube video address:https://youtu.be/w5pjWKsDLh0
+Youtube video address: ''https://youtu.be/w5pjWKsDLh0''
 
-Manager test account:username:1234567, password:1234567;
-Staff test account:username:1, password:1;
+Manager test account:username: ''1234567'', password: ''1234567'';
+Staff test account:username: ''1'', password: ''1'';
 
 ---
 
@@ -26,7 +26,7 @@ The database has 5 tables:
 	5). orders: Stores all orders, each order is stored as a list of items in the order with same 'time' and 'tableNo' with their own 'special request' and 'comment'.  
 	 
 3. An external library: sqlite-jdbc-3.15.1.jar is used to support the SQLite. 
-The library was download from: 'https://bitbucket.org/xerial/sqlite-jdbc/downloads'
+The library was download from: https://bitbucket.org/xerial/sqlite-jdbc/downloads
   
 4. The class MaskField is a costomised TextField class, used in Search.fxml and StaffSearch.fxml for formatted time input.
-This class is created by 'vas7n' [12 Sep 2015], Accessed from: 'https://github.com/vas7n/VAMaskField' on 10 Dec 2016.
+This class is created by 'vas7n' [12 Sep 2015], Accessed from: https://github.com/vas7n/VAMaskField on 10 Dec 2016.
