@@ -1,9 +1,9 @@
 ## Restaurant_Billing_Management_System - COMPGC01 Coursework
 
-Youtube video address: ''https://youtu.be/w5pjWKsDLh0''
+Youtube video address: https://youtu.be/w5pjWKsDLh0
 
-Manager test account:username: ''1234567'', password: ''1234567'';
-Staff test account:username: ''1'', password: ''1'';
+Manager test account:username: ``1234567``, password: ``1234567``;
+Staff test account:username: ``1``, password: ``1``;
 
 ---
 
